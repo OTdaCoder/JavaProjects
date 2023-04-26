@@ -51,3 +51,7 @@ form .display input{
 form input.equal{
     width: 145px;
 }
+
+form input.operator{
+    color: lightblue
+}
