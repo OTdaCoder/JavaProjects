@@ -7,8 +7,24 @@
         <title>Word Scrabble Game</title>
         <link rel="stylesheet" href="style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="js/words.js" defer></script>
+        <script src="js/script.js" defer></script>
     </head>
     <body>
-        
+        <div class="container">
+            <h2>Word Scrabble</h2>
+            <div class="content">
+                <p class="word"></p>
+                <div class="details">
+                    <p class="hint">Hint: <span></span></p>
+                    <p class="time">Time Left: <span><b></b>s</span></p>
+                    <input type="text" placeholder="Enter a valid word">
+                    <div class="buttons">
+                        <button class="refresh-word">Refresh Word</button>
+                        <button class="check-word">Check Word</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
